@@ -1,0 +1,69 @@
+.form {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 0.75em 1.25em;
+}
+
+.form_control {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.input_label {
+  font-size:1.15rem;
+  font-weight: 500;
+}
+
+.form_input {
+  font-size: 1rem;
+  padding: 0.5em 0.75em;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(92, 92, 92);
+  border-radius:4px;
+  transition: 0.3s all ease;
+}
+
+.form_input:focus {
+  border: 2px solid rgb(254, 131, 37);
+}
+
+.gender_container label input {
+  display: block;
+}
+
+.gender_container label {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+
+.btn_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.35em 1em;
+  border: none;
+  outline: none;
+  background-color: rgb(254, 131, 37);
+  cursor: pointer;
+  color: #fff;
+  border-radius: 4px;
+}
