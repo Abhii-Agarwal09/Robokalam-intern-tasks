@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  min-height: 100vh;
+}
+.container_student {
+  display: flex;
+  margin: 1rem 0;
+  justify-content:center;
+  flex: 0.25;
+  gap: 1rem;
+}
+.live {
+  border: 2px solid green;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex: 1;
+  width: 60%;
+}
+.webcam {
+  border: 2px solid blue;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  padding: 1rem;
+}
+.emotion {
+  border: 2px solid black;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  padding: 1rem;
+}
